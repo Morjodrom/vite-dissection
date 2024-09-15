@@ -1,0 +1,12 @@
+.aliased {
+
+}
+
+.aliased-yes {
+	color: darkgreen;
+	display: initial !important;
+}
+
+.aliased-no {
+	display: none;
+}

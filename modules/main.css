@@ -1,3 +1,6 @@
+@import url($aliased/aliased.css);
+
 body {
 	background: ivory;
 }
+

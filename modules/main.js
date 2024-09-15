@@ -1,4 +1,4 @@
 import './main.css';
-import '$tsAliased/aliased.js';
+import '$aliased/aliased.js';
 
 console.log("Hello, vite!");
