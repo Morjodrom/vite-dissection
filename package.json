@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "vite",
     "prod": "tsc && vite build",
+	"prod-vite-only": "vite build",
     "prod-watch": "tsc && vite build --watch",
     "preview": "vite preview"
   },
