@@ -4,4 +4,10 @@ body {
 
 body:after {
 	content: "main.css is included";
+	display: inline-block;
+	font-size: 36px;
+	padding-right: 200px;
+	height: 200px;
+	background: url(./images/realistic.jpg) no-repeat 100% 0;
+	background-size: auto 100%;
 }
