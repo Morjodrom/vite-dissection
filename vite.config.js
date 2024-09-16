@@ -1,13 +1,11 @@
 import {defineConfig} from 'vite';
 
 export default defineConfig({
-	base: '/dynamic/',
 	build: {
-		outDir: './www/dynamic/',
+		manifest: true,
 		rollupOptions: {
 			input: {
-				main: './index.html',
-				about: './about/index.html'
+				main: './modules/main.js'
 			}
 		}
 	}

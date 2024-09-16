@@ -1,3 +1,7 @@
 body {
 	background: ivory;
 }
+
+body:after {
+	content: "main.css is included";
+}
