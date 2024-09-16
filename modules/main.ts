@@ -22,3 +22,7 @@ app!.appendChild(realisticImg);
 let svgImg = new Image(100);
 svgImg.src = simpleVector;
 app!.appendChild(svgImg);
+
+console.log('%cUsage of import.meta.url(%s)', 'background: #222; color: #bada55;', import.meta.url);
+let url = new URL('./some-same-folder-file.jpg', import.meta.url);
+console.log(url);
