@@ -19,12 +19,14 @@
     "prod-vite-only": "vite build",
     "prod-watch": "tsc && vite build --watch",
     "preview": "vite preview",
-	"test": "vitest"
+    "test": "vitest",
+    "test-with-output": "vitest --config=vitest.config.output.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@vitest/ui": "^2.1.1",
     "vitest": "^2.1.1"
   }
 }
