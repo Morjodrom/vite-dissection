@@ -16,11 +16,15 @@
   "scripts": {
     "dev": "vite",
     "prod": "tsc && vite build",
-	"prod-vite-only": "vite build",
+    "prod-vite-only": "vite build",
     "prod-watch": "tsc && vite build --watch",
-    "preview": "vite preview"
+    "preview": "vite preview",
+	"test": "vitest"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.1.1"
+  }
 }
