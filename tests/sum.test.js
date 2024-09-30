@@ -10,5 +10,10 @@ test('1 + -Infinity = -Infinity', () => {
 });
 
 test('sum for snapshots', () => {
+	// noinspection JSUnresolvedReference
 	expect(sum(1, 2)).toMatchSnapshot();
+})
+test('sum for customized snapshots', () => {
+	// noinspection JSUnresolvedReference
+	expect(`<div>1 + 2 = 3</div>`).toMatchFileSnapshot('./custom-snapshots/sum.test.snapshot.html');
 })
