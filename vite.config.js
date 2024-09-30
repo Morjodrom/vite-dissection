@@ -13,5 +13,8 @@ export default defineConfig({
 	},
 	test: {
 		includeSource: ['modules/*.{js,ts}']
+	},
+	define: {
+		'import.meta.vitest': 'undefined'
 	}
 })

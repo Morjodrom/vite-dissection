@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-	"moduleResolution": "node16",
+	"moduleResolution": "Bundler",
 	"target": "ESNext",
 	"module": "esnext",
-	"types": ["vite/client", "vitest/globals"]
+	"types": ["vite/client", "vitest/globals"],
+	"isolatedModules": true,
+	"skipLibCheck": true
   }
 }
