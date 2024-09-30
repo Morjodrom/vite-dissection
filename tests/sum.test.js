@@ -7,4 +7,8 @@ test('1 + 2 = 3', () => {
 
 test('1 + -Infinity = -Infinity', () => {
 	expect(sum(1, -Infinity)).toBe(-Infinity);
+});
+
+test('sum for snapshots', () => {
+	expect(sum(1, 2)).toMatchSnapshot();
 })
