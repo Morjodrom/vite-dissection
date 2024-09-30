@@ -10,5 +10,8 @@ export default defineConfig({
 				about: './about/index.html'
 			}
 		}
+	},
+	test: {
+		includeSource: ['modules/*.{js,ts}']
 	}
 })
