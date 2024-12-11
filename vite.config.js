@@ -7,7 +7,12 @@ export default defineConfig({
 		assetsInlineLimit: 4096,
 		rollupOptions: {
 			output: {
-				assetFileNames: 'assets/path/[name].custom.[hash][extname]'
+				assetFileNames: function(assetInfo) {
+					let assetNameUppercased = assetInfo.name
+						.replace(/\.\w+?$/, '')
+						.toUpperCase();
+					return 'assets/path/' + assetNameUppercased + '[extname]'
+				}
 			}
 		}
 	}
