@@ -3,10 +3,12 @@ import {defineConfig} from 'vite';
 export default defineConfig({
 	base: '/dynamic/',
 	resolve: {
-		alias: {
-			'./initial.js': './replacement.js',
-			'../initial.js': '../replacement.js'
-		}
+		alias: [
+			{
+				find: /initial\.js/,
+				replacement: 'replacement.js'
+			}
+		]
 	},
 	build: {
 		outDir: './www/dynamic/',
