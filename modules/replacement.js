@@ -1,0 +1,1 @@
+console.info('The initial.js module is replaced correctly!');

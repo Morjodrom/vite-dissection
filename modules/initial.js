@@ -1,0 +1,1 @@
+console.error('Initial js must not be included and must be replaced');
