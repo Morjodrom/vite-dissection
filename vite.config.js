@@ -4,7 +4,8 @@ export default defineConfig({
 	base: '/dynamic/',
 	resolve: {
 		alias: {
-			'./initial.js': './replacement.js'
+			'./initial.js': './replacement.js',
+			'../initial.js': '../replacement.js'
 		}
 	},
 	build: {
